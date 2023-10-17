@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/noovar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>História e Compromisso Ambiental</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-header">
+            <img src="imagens/Noovar-logo.png" class="logo-noovar" style="cursor: pointer;" id="logo">
+        </div>
+        <div class="header-navegacao">
+            <a href="historia.html" class="active">História e Compromisso Ambiental</a>
+            <a href="producao.html">Produção Integrada</a>
+            <a href="#">Distribuição e Clientes</a>
+            <a href="valores.html">Valores da Noovar</a>
+            <a href="conclusao.html">Conclusão</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16" style="cursor: pointer;">
+                <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="cursor: pointer;">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="content">
+        <div class="texto">
+            <h1><span class="verde">História e Compromisso Ambiental</span></h1>
+            <p>Desde o início, a empresa adotou uma abordagem responsável e sustentável na extração, garantindo que os recursos naturais fossem utilizados de forma consciente e com o menor impacto ambiental possível. À medida que a empresa cresceu, seu compromisso com a sustentabilidade se expandiu para abranger todas as áreas de sua operação. A Noovar entende que o progresso econômico deve andar de mãos dadas com a preservação do meio ambiente e, por isso, busca constantemente maneiras de reduzir sua pegada de carbono e minimizar seu impacto no ecossistema. A história da Noovar é um exemplo inspirador de como uma empresa pode evoluir e prosperar no mercado global, começando como uma modesta empresa de extração de matéria-prima para painéis solares e se transformando em uma líder na produção e venda desses produtos. Tudo começou na Austrália, em meados dos anos 70, em uma cidade popular da época.</p>
+            <img src="imagens/process-of-forest-harvesting.jpg" alt="" style="max-width: 95%; margin-left: 2.2rem; ">
+            <div class="options-container">
+                <div class="option" onclick="toggleOption('option1')">
+                    <span class="textoopc">Os Primeiros Passos</span>
+                    <div class="underline"></div>
+                    <div id="option1-content" class="option-content">
+                        <p>No coração de uma cidade australiana dinâmica e cheia de energia, surgiu a Noovar. Fundada por um grupo de visionários empreendedores, a empresa nasceu como uma empresa de extração de matéria-prima essencial para a fabricação de painéis solares. Naquela época, a energia solar estava começando a se consolidar como uma alternativa promissora e limpa aos combustíveis fósseis, e a demanda por placas solares estava crescendo rapidamente.Os fundadores da Noovar viam potencial no setor de energia solar e acreditavam que poderiam não apenas fornecer matéria-prima de alta qualidade, mas também desempenhar um papel crucial na produção e no avanço das tecnologias solares. Essa visão audaciosa impulsionou a empresa nos primeiros anos de sua existência.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option2')">
+                    <span class="textoopc">O Crescimento e a Diversificação</span>
+                    <div class="underline"></div>
+                    <div id="option2-content" class="option-content">
+                        <p>Conforme a Noovar estabeleceu uma base sólida no mercado de extração de matéria-prima para placas solares, sua equipe de pesquisa e desenvolvimento começou a explorar novas possibilidades. Eles investiram em inovação e tecnologia para melhorar a eficiência e a qualidade das matérias-primas, mas também buscaram maneiras de expandir seu portfólio. A virada aconteceu quando a equipe de P&D da Noovar desenvolveu uma técnica revolucionária de revestimento solar que aumentava significativamente a eficiência das placas solares. Em vez de se contentar apenas em extrair e vender matérias-primas, a Noovar decidiu entrar no negócio de fabricação de painéis solares. Essa decisão estratégica provou ser um divisor de águas para a empresa.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option3')">
+                    <span class="textoopc">Inovação e Qualidade Superior</span>
+                    <div class="underline"></div>
+                    <div id="option3-content" class="option-content">
+                        <p>Com seu compromisso com a inovação, a Noovar lançou sua primeira linha de painéis solares em meados dos anos 80. Esses painéis eram conhecidos por sua qualidade superior e eficiência, graças à tecnologia de revestimento solar patenteada. A empresa rapidamente ganhou reconhecimento no mercado australiano e, em pouco tempo, seus produtos eram exportados para vários países ao redor do mundo. À medida que a conscientização sobre a importância da energia limpa cresceu, a demanda por painéis solares Noovar aumentou exponencialmente.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option4')">
+                    <span class="textoopc">Compromisso com a Sustentabilidade</span>
+                    <div class="underline"></div>
+                    <div id="option4-content" class="option-content">
+                        <p>Além de seu compromisso com a qualidade, a Noovar também se destacou por sua dedicação à sustentabilidade. A empresa adotou práticas ambientalmente responsáveis em todas as etapas de sua produção, desde a extração de matérias-primas até a fabricação dos painéis solares. Essa abordagem sustentável não apenas ressoou com os consumidores, mas também atraiu investidores que compartilhavam os valores da empresa.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option5')">
+                    <span class="textoopc">Expansão Global</span>
+                    <div class="underline"></div>
+                    <div id="option5-content" class="option-content">
+                        <p>Com a crescente demanda por seus produtos e a reputação estabelecida no mercado de energia solar, a Noovar expandiu suas operações para outros continentes. Estabeleceu centros de produção e distribuição na Europa, Ásia e América do Norte, tornando-se uma marca globalmente reconhecida no setor.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option6')">
+                    <span class="textoopc">Desafios Superados</span>
+                    <div class="underline"></div>
+                    <div id="option6-content" class="option-content">
+                        <p>Claro, a jornada da Noovar não foi isenta de desafios. A empresa enfrentou concorrência acirrada, flutuações nos preços das matérias-primas e mudanças nas políticas energéticas em todo o mundo. No entanto, a Noovar se destacou graças à sua capacidade de adaptação e inovação contínua.</p>
+                    </div>
+                </div>
+
+                <div class="option" onclick="toggleOption('option7')">
+                    <span class="textoopc">O Legado da Noovar</span>
+                    <div class="underline"></div>
+                    <div id="option7-content" class="option-content">
+                        <p>Hoje, a Noovar é uma das principais empresas do setor de energia solar, reconhecida por seus produtos de alta qualidade e compromisso com a sustentabilidade. Sua história é um exemplo inspirador de como uma empresa pode evoluir e prosperar, passando de uma empresa de extração de matéria-prima para uma líder na produção e venda de painéis solares. A Noovar não apenas forneceu energia limpa para inúmeras residências e empresas, mas também demonstrou que a inovação e a sustentabilidade são fundamentais para o sucesso no mercado de energia solar. Seu legado continua a brilhar, iluminando um futuro mais limpo e sustentável para todos</p>
+                    </div>
+                </div>
+
+
+            </div>
+			<br>
+			<br>
+			<br>
+        </div>
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Sobre Nós</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Quem Somos</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Nossos Colaboradores</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Como Trabalhamos</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Empresas Subsidiadas</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Trajetória</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Área Cliente</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ajuda</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Trabalhe Conosco</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Certificaçoes</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Vagas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Nossas Atividades</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Áreas de atuação</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Principais operações</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Produtos</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Meio ambiente</a></li>
+                            <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Ouvidoria</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-left" style="text-align: left;">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    </hr>
+                </div>  
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p style="color: black;"><u><a href="#">Noovar Corporation</a></u> é um MSP/ISO Registrado da Elavon, Inc. Geórgia [uma subsidiária integral da U.S. Bancorp, Minneapolis, MN], com sede em São Paulo</p>
+                        <p class="h6" style="color: grey;">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">noovar</a></p>
+                    </div>
+                    </hr>
+                </div>  
+            </div>
+        </section>
+        <!-- ./Footer -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('logo').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+		let currentOption = null;
+
+		function toggleOption(optionId) {
+  			const optionContent = document.getElementById(optionId + '-content');
+  			const allOptionContents = document.querySelectorAll('.option-content');
+
+  			if (optionContent === currentOption) {
+				// Se a opção clicada for a mesma que a atualmente ativa, oculte-a.
+				optionContent.style.display = 'none';
+				currentOption = null;
+ 			 } else {
+				// Oculta todas as opções
+				allOptionContents.forEach(content => {
+	  			content.style.display = 'none';
+		});
+
+	// Exibe a opção clicada
+	optionContent.style.display = 'block';
+	currentOption = optionContent;
+  }
+}
+    </script>
+</body>
+</html>
